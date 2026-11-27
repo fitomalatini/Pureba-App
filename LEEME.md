@@ -7,7 +7,7 @@ obliga a publicar también su código fuente con los cambios.
 ## Primer objetivo: Windows
 
 ### 1. Compilar el cliente
-1. En GitHub ve a **Actions → "Compilar cliente Windows" → Run workflow**.
+1. En GitHub ve a **Actions → "Compilar cliente Windows" → Run workflow** (rama `main`).
 2. Tarda unos 40–60 min la primera vez (las siguientes, menos, gracias a la caché).
 3. Descarga el artefacto `cliente-windows-x64` y ejecuta `rustdesk.exe`.
 
